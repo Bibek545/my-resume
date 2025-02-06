@@ -2,11 +2,56 @@
 <html>
     <head>
        <title>My contact info</title>
+       <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
+        <div>
+            <h3>Find me here</h3>
         <p><a href="index.html">Back to resume</a></p>
         <p>Email: bbekhamal26@gmail.com</p>
         <p><a href="https://www.linkedin.com/in/bibek-hamal-b231291a4/">LinkedIn: "https://www.linkedin.com/in/bibek-hamal-b231291a4/"</a></p>
         <p><a href="https://github.com/Bibek545?tab=overview&from=2025-02-01&to=2025-02-02">Github: "https://github.com/Bibek545?tab=overview&from=2025-02-01&to=2025-02-02"</a></p>
+        </div>
+        <hr /> 
+
+        <form>
+            <div> 
+                <h3> Get in touch</h3>
+                <p>Fill up the form below and I will get back to you asap.</p>
+                <label>First name</label>
+                <input type="text" placeholder="firstname" required />
+
+                <br />
+                <br />
+                <label>Last name</label>
+                <input type="text" placeholder="lastname" required />
+
+                <br />
+                <br />
+
+                <label>Email</label>
+                <input type="email" placeholder="email@.com" required />
+
+                <br />
+                <br />
+
+                <label>Mobile number</label>
+                <input type="text" placeholder="0123456789" required />
+
+                <br />
+                <br />
+
+                <label for="message">Reason for contact</label>
+                <br />
+                <br/>
+                <textarea id= "message" placeholder="abcdef" required></textarea>
+
+                <br />
+                <br />
+
+                <button>Send message</button>
+            </div>
+        </form>
     </body>
+
 </html>
